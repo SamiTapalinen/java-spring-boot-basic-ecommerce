@@ -6,11 +6,11 @@ Users, Products, Quotes and Orders can be manipulated with CRUD operations using
 
 #### Some example requests
 
-##### http://localhost:8090/users
+##### localhost:8090/users
 
 Get all users
 
-##### http://localhost:8090/user
+##### localhost:8090/user
 
 POST user
 
@@ -20,15 +20,15 @@ POST user
 }
 ```
 
-#### localhost:8090/products
+##### localhost:8090/products
 
 Get all products
 
-#### localhost:8090/products/{sku}
+##### localhost:8090/products/{sku}
 
 Get products by SKU
 
-#### localhost:8090/product
+##### localhost:8090/product
 
 POST product
 
@@ -40,11 +40,11 @@ POST product
 }
 ```
 
-#### localhost:8090/quotes
+##### localhost:8090/quotes
 
 Get all quotes
 
-#### localhost:8090/quote
+##### localhost:8090/quote
 
 POST quote
 
@@ -65,7 +65,7 @@ POST quote
 }
 ```
 
-#### localhost:8090/quote/{id}
+##### localhost:8090/quote/{id}
 
 PUT quote
 
@@ -81,11 +81,11 @@ PUT quote
 }
 ```
 
-#### localhost:8090/orders
+##### localhost:8090/orders
 
 Get all orders
 
-#### localhost:8090/order
+##### localhost:8090/order
 
 POST order
 
