@@ -92,7 +92,7 @@ POST order
 ```
 {
      "user:": {
-        "name": "Sami"
+        "name": "John Doe"
     },
     "products": [
         {
