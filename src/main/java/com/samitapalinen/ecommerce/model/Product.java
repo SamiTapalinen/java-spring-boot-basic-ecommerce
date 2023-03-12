@@ -1,11 +1,29 @@
 package com.samitapalinen.ecommerce.model;
 
 public class Product {
+    private String sku;
+
     private String name;
 
     private double price;
-    
-    private String imageUrl;
+
+    public Product() {
+        this(null, null, 0.0d);
+    }
+
+    public Product(String sku, String name, double price) {
+        this.sku = sku;
+        this.name = name;
+        this.price = price;
+    }
+
+    public String getSku() {
+        return sku;
+    }
+
+    public void setSku(String sku) {
+        this.sku = sku;
+    }
 
     public String getName() {
         return name;
@@ -21,13 +39,5 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
-    }
-    
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
     }
 }
